@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 10px auto;
+}
+
+#container_button {
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+table, thead {
+  border: 3px solid;
+  border-collapse: collapse;
+}
+
+.middle {
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-left: 1px hidden;
+  border-right: 1px hidden;
+  border-collapse: collapse;
+}
+
+th, td {
+  width: 200px;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 10px;
+  font-size: 1em;
+}
+
+/* Handy */
+@media (max-width: 600px) {
+
+}
