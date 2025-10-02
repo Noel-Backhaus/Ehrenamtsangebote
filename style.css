@@ -34,6 +34,7 @@ button {
 table, thead {
   border: 3px solid;
   border-collapse: collapse;
+  max-width: 100%;
 }
 
 .middle {
