@@ -53,6 +53,7 @@ th, td {
   border-collapse: collapse;
   text-align: center;
   padding: 1vw;
+  word-break: break-word;
 }
 
 table img {
@@ -76,4 +77,5 @@ footer {
     overflow-x: auto;
   }
 }
+
 
