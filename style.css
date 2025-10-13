@@ -65,7 +65,13 @@ footer {
   .container {
     overflow-x: auto;
   }
+  
+  table img {
+    width: 50%;
+    height: 50%;
+  }
 }
+
 
 
 
