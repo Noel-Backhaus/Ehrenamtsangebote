@@ -53,13 +53,6 @@ th, td {
   padding: 10px;
 }
 
-table img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 footer {
   display: flex;
   justify-content: center;
@@ -73,5 +66,6 @@ footer {
     overflow-x: auto;
   }
 }
+
 
 
