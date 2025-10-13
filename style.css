@@ -34,7 +34,10 @@ button {
 table, thead {
   border: 3px solid;
   border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
   max-width: 100%;
+  font-size: 2vw; 
 }
 
 .middle {
@@ -49,7 +52,15 @@ th, td {
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
-  padding: 10px;
+  padding: 1vw;
+}
+
+table img {
+  width: 8vw;      
+  height: auto;  
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
@@ -65,12 +76,3 @@ footer {
     overflow-x: auto;
   }
 }
-
-
-
-
-
-
-
-
-
