@@ -72,10 +72,11 @@ footer {
 
 /* Handy */
 @media (max-width: 600px) {
-  .container {
+  .container_table {
     overflow-x: auto;
   }
 }
+
 
 
 
