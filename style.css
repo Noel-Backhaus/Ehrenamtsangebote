@@ -37,7 +37,7 @@ table, thead {
   table-layout: auto;
   width: 100%;
   max-width: 100%;
-  font-size: 2vw; 
+  font-size: clamp(12px, 2vw, 22px);
 }
 
 .middle {
@@ -76,3 +76,4 @@ footer {
     overflow-x: auto;
   }
 }
+
