@@ -46,8 +46,6 @@ table, thead {
 }
 
 th, td {
-  width: 200px;
-  max-width: 100%;
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
@@ -67,6 +65,7 @@ footer {
     overflow-x: auto;
   }
 }
+
 
 
 
