@@ -33,7 +33,7 @@ button {
 }
 
 table, thead {
-  border: 3vw solid;
+  border: 0.2em solid;
   border-collapse: collapse;
   table-layout: auto;
   width: 100%;
@@ -42,15 +42,15 @@ table, thead {
 }
 
 .middle {
-  border-top: 3vw solid;
-  border-bottom: 3vw solid;
-  border-left: 1px hidden;
-  border-right: 1px hidden;
+  border-top: 0.2em solid;
+  border-bottom: 0.2em solid;
+  border-left: 0.2em hidden;
+  border-right: 0.2em hidden;
   border-collapse: collapse;
 }
 
 th, td {
-  border: 1vw solid;
+  border: 1px solid;
   border-collapse: collapse;
   text-align: center;
   vertical-align: middle;
@@ -82,3 +82,4 @@ footer {
     font-size: clamp(8px, 2vw, 1em);
   }
 }
+
