@@ -58,11 +58,19 @@ th, td {
 }
 
 table img {
-  width: 8vw;      
-  height: auto;  
   object-fit: contain;
   display: block;
   margin: 0 auto;
+}
+
+table img.square {
+  width: auto;
+  height: 12vw;
+}
+
+table img.horizontal {
+  width: auto;
+  height: 10vw;
 }
 
 footer {
@@ -82,6 +90,7 @@ footer {
     font-size: clamp(8px, 2vw, 1em);
   }
 }
+
 
 
 
