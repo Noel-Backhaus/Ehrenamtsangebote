@@ -29,7 +29,7 @@ button {
   height: auto;
   margin-bottom: 20px;
   padding: 5px;
-  font-size: 2em;
+  font-size: clamp(10px, 2vw, 13px);
 }
 
 table, thead {
@@ -82,5 +82,6 @@ footer {
     font-size: clamp(8px, 2vw, 1em);
   }
 }
+
 
 
