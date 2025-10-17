@@ -115,7 +115,7 @@ function selectLanguageSet() {
     
     // Titel
     for (index = 0; index < 7; index++) {
-        if(kuerzel[index] == select.value && index !== -1) {
+        if(kuerzel[index] == select.value) {
             document.title = titles[index];
         }
     }
@@ -128,4 +128,5 @@ document.getElementById('languageSelect').addEventListener('change', function() 
     selectLanguageSet();
     browserLanguageSet();
 });
+
 
