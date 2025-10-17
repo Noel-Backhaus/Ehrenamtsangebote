@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+#logo {
+  margin: 20px auto 0;
+}
+
 h1 {
   text-align: center;
   padding: 10px;
@@ -24,7 +28,7 @@ h1 {
   justify-content: right;
 }
 
-button {
+select {
   width: auto;
   height: auto;
   margin-bottom: 20px;
@@ -90,7 +94,3 @@ footer {
     font-size: clamp(8px, 2vw, 1em);
   }
 }
-
-
-
-
