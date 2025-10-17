@@ -82,6 +82,7 @@ function setLanguage() {
 // Brower Sprache
 const sprache = navigator.language; // z.B. "de-DE"
 console.log(sprache);
+document.body.insertAdjacentHTML('beforeend', '<pre>' + navigator.language + '</pre>');
 
 function browserLanguageSet() {
     let select = document.getElementById('languageSelect');
@@ -127,3 +128,4 @@ document.getElementById('languageSelect').addEventListener('change', function() 
     selectLanguageSet();
     browserLanguageSet();
 });
+
