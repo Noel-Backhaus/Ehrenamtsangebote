@@ -82,7 +82,6 @@ function setLanguage() {
 // Brower Sprache
 const sprache = navigator.language; // z.B. "de-DE"
 console.log(sprache);
-document.body.insertAdjacentHTML('beforeend', '<pre>' + navigator.language + '</pre>');
 
 function browserLanguageSet() {
     let select = document.getElementById('languageSelect');
@@ -115,7 +114,7 @@ function selectLanguageSet() {
     
     // Titel
     for (index = 0; index < 7; index++) {
-        if(kuerzel[index] == select.value) {
+        if(kuerzel[index] == select.value && index !== -1) {
             document.title = titles[index];
         }
     }
@@ -128,5 +127,6 @@ document.getElementById('languageSelect').addEventListener('change', function() 
     selectLanguageSet();
     browserLanguageSet();
 });
+
 
 
