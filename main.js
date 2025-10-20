@@ -94,6 +94,11 @@ function browserLanguageSet() {
             }
         }
         
+        // Fallback auf Englisch
+        if (liste.length === 0) {
+            liste = englisch;
+        }
+        
         // Begriffe
         setLanguage();
     }
